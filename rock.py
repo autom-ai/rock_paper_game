@@ -3,6 +3,7 @@ import random
 game = ("rock", "paper", "scissor")
 player = None
 while True:
+    print("--------------------Welcome to the Rock scissor paper--------------------")
     computer_choice = random.choice(game)
     player = input("Enter your choice : ")
     if player == computer_choice:
@@ -16,3 +17,4 @@ while True:
     user_continue = input("do you want to continue further (Y/N)")
     if user_continue.lower != 'y':
         continue
+    
